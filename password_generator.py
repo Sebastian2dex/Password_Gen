@@ -1,13 +1,13 @@
 import random
+import string
 
-lc="abcdefghijklmnopqrstuvwxyz"
-uc="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+wd = string.ascii_letters
 sym="'*:/!?+=%)(-_&$#@[]£€¥¢^><|~¿"
-num="1234567890"
+num=string.digits()
 
 l=8
 
-j=lc+uc+sym+num
+j=wd+sym+num
 
 password="".join(random.sample(j,l))
 
