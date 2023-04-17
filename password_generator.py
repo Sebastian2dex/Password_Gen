@@ -3,7 +3,7 @@ import string
 
 wd = string.ascii_letters
 sym="'*:/!?+=%)(-_&$#@[]£€¥¢^><|~¿"
-num=string.digits()
+num=string.digits
 
 l=8
 
